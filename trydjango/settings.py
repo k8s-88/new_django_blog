@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['new-django-blog-katiemodonnell88.c9users.io']
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -124,5 +125,5 @@ STATIC_URL = '/static/'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
