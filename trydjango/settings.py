@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['new-django-blog-katiemodonnell88.c9users.io']
 
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
+    'users.apps.UsersConfig',
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
